@@ -1,0 +1,4 @@
+# praktikum---a
+NAMA : SHALSYA ADINA MARSYA
+NIM :2410432009
+SHIFT : 4
