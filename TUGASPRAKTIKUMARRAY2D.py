@@ -4,9 +4,9 @@ mahasiswa = int(input("Masukkan jumlah mahasiswa: "))
 data_mahasiswa = []
 
 for i in range(mahasiswa):
-    nama = input(f"Masukkan nama mahasiswa ke-{i+1}: ").strip()
+    nama = input(f"Masukkan nama mahasiswa ke-{i+1}: ")
     while True:
-        indeks = input("Masukkan nilai huruf (A, A-, B+, B, B-, C+, C, D, E): ").strip().upper()
+        indeks = input("Masukkan nilai huruf (A, A-, B+, B, B-, C+, C, D, E): ").upper()
         if indeks in nilai_huruf:
             posisi = nilai_huruf.index(indeks)
             ip = nilai_angka[posisi]
